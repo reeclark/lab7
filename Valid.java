@@ -7,7 +7,7 @@ public class Valid {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
-		//^[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,6}$  [A-Z][a-z]{1,15}\\s+[A-Z][a-z]{1,15}
+		
 		System.out.println(name(scan, "Enter your name: ", "^[A-Z][a-z]{1,30}$"));
 
 		System.out.println(email(scan, "Please enter a valid email: ", "\\w{5,30}@\\w{5,10}.\\w{2,3}"));
